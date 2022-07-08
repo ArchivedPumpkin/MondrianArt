@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+}
+
+#canvas-margins{
+    --b: 10px; /* control the size */
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px, #0000 90deg, #000 0);
+}
+
+#canvas {
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border: 1px solid
+}
+
+#first-row {
+    height: 75%;
+    width: 100%;
+}
+
+#second-row {
+    height: 3%;
+    width: 100%;
+}
+
+#third-row {
+    height: 22%;
+    width: 100%;
+}
+
+#first-column {
+    height: 100%;
+    width: 22%;
+}
+
+#last-column {
+    height: 100%;
+    width: 5%;
+}
+
+#big-rectangle {
+    height: 100%;
+    width: 75%;
+}
+
+#first-divider {
+    height: 100%;
+    width: 3%;
+}
+
+#second-divider {
+    height: 3%;
+    width: 100%;
+}
+
+#third-divider {
+    height: 10%;
+    width: 100%;
+}
+
+#fourth-divider {
+    width: 3%;
+    height: 100%;
+}
+
+#fifth-divider {
+    width: 3%;
+    height: 100%;
+}
+
+#first-medium-rectangle {
+    height: 48.5%;
+    width: 100%;
+}
+
+#second-medium-rectangle {
+    height: 48.5%;
+    width: 100%;
+}
+
+#wide-rectangle {
+    width: 67%;
+    height: 100%;
+}
+
+#small-rectangle {
+    width: 22%;
+    height: 100%;
+}
+
+#first-tiny-rectangle {
+    height: 45%;
+}
+
+#second-tiny-rectangle {
+    height: 45%;
+}
+
+.red {
+    background-color: #fb6f92;
+}
+
+.right {
+    float: right;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: #E2B9DB;
+}
+
+.blue {
+    background-color: #FFC45F;
+}
+
+.gray {
+    background-color: gray;
+}
